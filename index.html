@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Style — студия маникюра</title>
+    <meta name="description" content="Маникюр, педикюр и дизайн ногтей. Стерильные инструменты, премиальные материалы, носка до 4 недель.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="container header__inner">
+        <a href="#top" class="logo">Beauty<span>Style</span></a>
+        <nav class="nav" id="nav">
+            <a href="#services">Услуги</a>
+            <a href="#about">О мастере</a>
+            <a href="#works">Работы</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <a href="#booking" class="btn btn--small header__btn">Записаться</a>
+        <button class="burger" id="burger" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+    </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+    <div class="container hero__inner">
+        <div class="hero__text">
+            <p class="eyebrow">Студия маникюра · Москва</p>
+            <h1>Нежный маникюр,<br><em>который держится</em> до 4 недель</h1>
+            <p class="hero__lead">Аккуратное покрытие, идеальные блики и дизайн под ваше настроение. Работаю только со стерильными инструментами и премиальными материалами.</p>
+            <div class="hero__actions">
+                <a href="#booking" class="btn">Записаться онлайн</a>
+                <a href="#works" class="btn btn--ghost">Смотреть работы</a>
+            </div>
+            <ul class="hero__stats">
+                <li><b>7 лет</b><span>опыта</span></li>
+                <li><b>3 500+</b><span>довольных клиенток</span></li>
+                <li><b>4.9 ★</b><span>средняя оценка</span></li>
+            </ul>
+        </div>
+        <div class="hero__media">
+            <div class="hero__blob"></div>
+            <img src="https://images.unsplash.com/photo-1612887390768-fb02affea7a6?w=900&q=80&auto=format&fit=crop" alt="Нежный розовый маникюр">
+            <div class="hero__badge">
+                <span class="hero__badge-icon">✿</span>
+                <div><b>−15%</b><small>на первый визит</small></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container features__grid">
+        <div class="feature">
+            <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 17l.9-5.4L4.2 7.7l5.4-.8z"/></svg>
+            </div>
+            <h3>Стерильность</h3>
+            <p>Трёхэтапная обработка инструментов и крафт-пакеты при вас</p>
+        </div>
+        <div class="feature">
+            <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9C1 8.4 3.2 4.5 7 4.5c2 0 3.5 1.1 5 3 1.5-1.9 3-3 5-3 3.8 0 6 3.9 4.3 7.5C19 16.6 12 21 12 21z"/></svg>
+            </div>
+            <h3>Премиум-материалы</h3>
+            <p>Гипоаллергенные гели и базы от проверенных брендов</p>
+        </div>
+        <div class="feature">
+            <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Без опозданий</h3>
+            <p>Принимаю строго по записи — никаких очередей</p>
+        </div>
+        <div class="feature">
+            <div class="feature__icon">
+                <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Гарантия 7 дней</h3>
+            <p>Бесплатно исправлю скол или отслойку в течение недели</p>
+        </div>
+    </div>
+</section>
+
+<section class="section services" id="services">
+    <div class="container">
+        <div class="section__head">
+            <p class="eyebrow">Прайс</p>
+            <h2>Услуги и цены</h2>
+            <p class="section__sub">Стоимость указана с учётом снятия предыдущего покрытия</p>
+        </div>
+
+        <div class="services__grid">
+            <article class="service">
+                <h3>Маникюр</h3>
+                <ul class="price-list">
+                    <li><span>Маникюр без покрытия</span><i></i><b>1 200 ₽</b></li>
+                    <li><span>Маникюр + гель-лак</span><i></i><b>2 300 ₽</b></li>
+                    <li><span>Укрепление гелем</span><i></i><b>+ 500 ₽</b></li>
+                    <li><span>Французский маникюр</span><i></i><b>+ 400 ₽</b></li>
+                </ul>
+                <p class="service__time">⏱ 1–2 часа</p>
+            </article>
+
+            <article class="service service--accent">
+                <span class="service__tag">Популярное</span>
+                <h3>Наращивание</h3>
+                <ul class="price-list">
+                    <li><span>Наращивание до 2 длины</span><i></i><b>3 200 ₽</b></li>
+                    <li><span>Коррекция наращивания</span><i></i><b>2 700 ₽</b></li>
+                    <li><span>Ремонт одного ногтя</span><i></i><b>200 ₽</b></li>
+                    <li><span>Снятие наращивания</span><i></i><b>500 ₽</b></li>
+                </ul>
+                <p class="service__time">⏱ 2–3 часа</p>
+            </article>
+
+            <article class="service">
+                <h3>Педикюр и дизайн</h3>
+                <ul class="price-list">
+                    <li><span>Педикюр + гель-лак</span><i></i><b>2 800 ₽</b></li>
+                    <li><span>Smart-педикюр</span><i></i><b>2 200 ₽</b></li>
+                    <li><span>Дизайн 1 ногтя</span><i></i><b>от 100 ₽</b></li>
+                    <li><span>Втирка / стемпинг</span><i></i><b>300 ₽</b></li>
+                </ul>
+                <p class="service__time">⏱ 1,5–2 часа</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <div class="container about__inner">
+        <div class="about__media">
+            <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=800&q=80&auto=format&fit=crop" alt="Мастер за работой">
+            <div class="about__frame"></div>
+        </div>
+        <div class="about__text">
+            <p class="eyebrow">О мастере</p>
+            <h2>Привет! Я Анна —<br>ваш мастер маникюра</h2>
+            <p>Больше семи лет я помогаю девушкам чувствовать себя увереннее — начиная с кончиков пальцев. Постоянно учусь у топовых мастеров и слежу за трендами, чтобы предложить вам самое актуальное.</p>
+            <p>Мой подход — аккуратность, честность и уютная атмосфера. Вы можете просто расслабиться с чашкой кофе, а я позабочусь об остальном.</p>
+            <ul class="about__list">
+                <li>Сертифицированный мастер аппаратного маникюра</li>
+                <li>Обучение по архитектуре ногтя и сложным дизайнам</li>
+                <li>Индивидуальный подбор формы и оттенка</li>
+            </ul>
+            <a href="#booking" class="btn">Записаться к Анне</a>
+        </div>
+    </div>
+</section>
+
+<section class="section works" id="works">
+    <div class="container">
+        <div class="section__head">
+            <p class="eyebrow">Портфолио</p>
+            <h2>Примеры работ</h2>
+            <p class="section__sub">Нажмите на фото, чтобы рассмотреть подробнее</p>
+        </div>
+        <div class="gallery">
+            <a class="gallery__item gallery__item--tall" href="https://images.unsplash.com/photo-1604902396830-aca29e19b067?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1604902396830-aca29e19b067?w=600&h=800&q=75&auto=format&fit=crop" alt="Нюдовый маникюр на розовом фоне" loading="lazy"></a>
+            <a class="gallery__item" href="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=600&h=600&q=75&auto=format&fit=crop" alt="Лавандовый маникюр с блёстками" loading="lazy"></a>
+            <a class="gallery__item" href="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=600&h=600&q=75&auto=format&fit=crop" alt="Нежный бежевый маникюр" loading="lazy"></a>
+            <a class="gallery__item gallery__item--tall" href="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&h=800&q=75&auto=format&fit=crop" alt="Красный маникюр с надписью love" loading="lazy"></a>
+            <a class="gallery__item" href="https://images.unsplash.com/photo-1587729927069-ef3b7a5ab9b4?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1587729927069-ef3b7a5ab9b4?w=600&h=600&q=75&auto=format&fit=crop" alt="Молочный маникюр с дизайном" loading="lazy"></a>
+            <a class="gallery__item" href="https://images.unsplash.com/photo-1599206676335-193c82b13c9e?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1599206676335-193c82b13c9e?w=600&h=600&q=75&auto=format&fit=crop" alt="Процесс покрытия гель-лаком" loading="lazy"></a>
+            <a class="gallery__item gallery__item--wide" href="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&h=600&q=75&auto=format&fit=crop" alt="Черепаховый дизайн ногтей" loading="lazy"></a>
+            <a class="gallery__item gallery__item--wide" href="https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?w=1400&q=85&auto=format"><img src="https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?w=600&h=600&q=75&auto=format&fit=crop" alt="Яркий абстрактный дизайн" loading="lazy"></a>
+        </div>
+    </div>
+</section>
+
+<section class="section reviews" id="reviews">
+    <div class="container">
+        <div class="section__head">
+            <p class="eyebrow">Отзывы</p>
+            <h2>Что говорят клиентки</h2>
+        </div>
+        <div class="reviews__grid">
+            <blockquote class="review">
+                <div class="review__stars">★★★★★</div>
+                <p>«Хожу к Анне уже два года и ни разу не было скола раньше трёх недель. Очень уютно, всегда подскажет с дизайном!»</p>
+                <footer><span class="review__avatar">М</span><div><b>Мария</b><small>постоянная клиентка</small></div></footer>
+            </blockquote>
+            <blockquote class="review">
+                <div class="review__stars">★★★★★</div>
+                <p>«Наконец нашла мастера, который делает идеальную форму. Кутикула аккуратная, покрытие ровное — просто любовь».</p>
+                <footer><span class="review__avatar">Е</span><div><b>Екатерина</b><small>маникюр + гель-лак</small></div></footer>
+            </blockquote>
+            <blockquote class="review">
+                <div class="review__stars">★★★★★</div>
+                <p>«Делала наращивание на свадьбу — получилось нежно и элегантно, как я и мечтала. Спасибо огромное!»</p>
+                <footer><span class="review__avatar">А</span><div><b>Алина</b><small>наращивание</small></div></footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<section class="section booking" id="booking">
+    <div class="container booking__inner">
+        <div class="booking__text">
+            <p class="eyebrow">Онлайн-запись</p>
+            <h2>Запишитесь на удобное время</h2>
+            <p>Оставьте заявку — я свяжусь с вами в течение 15 минут, чтобы подтвердить запись. Новым клиенткам — <b>скидка 15%</b> на первый визит.</p>
+            <ul class="booking__contacts">
+                <li><span>☎</span> <a href="tel:+79990000000">+7 (999) 000-00-00</a></li>
+                <li><span>✉</span> <a href="#">Написать в Telegram</a></li>
+            </ul>
+        </div>
+
+        <form class="form" id="bookingForm">
+            <label>Ваше имя
+                <input type="text" name="name" placeholder="Анастасия" required>
+            </label>
+            <label>Телефон
+                <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+            </label>
+            <label>Услуга
+                <select name="service">
+                    <option>Маникюр + гель-лак</option>
+                    <option>Маникюр без покрытия</option>
+                    <option>Наращивание</option>
+                    <option>Коррекция</option>
+                    <option>Педикюр</option>
+                </select>
+            </label>
+            <label>Желаемая дата
+                <input type="date" name="date">
+            </label>
+            <button type="submit" class="btn btn--full">Отправить заявку</button>
+            <p class="form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+            <div class="form__success" id="formSuccess">
+                <span>✿</span>
+                <h3>Спасибо за заявку!</h3>
+                <p>Я скоро свяжусь с вами для подтверждения.</p>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="section contacts" id="contacts">
+    <div class="container contacts__inner">
+        <div class="contacts__card">
+            <p class="eyebrow">Контакты</p>
+            <h2>Как меня найти</h2>
+            <dl>
+                <dt>Адрес</dt><dd>г. Москва, ул. Цветочная, 12, студия 4</dd>
+                <dt>Часы работы</dt><dd>Ежедневно с 10:00 до 21:00</dd>
+                <dt>Телефон</dt><dd><a href="tel:+79990000000">+7 (999) 000-00-00</a></dd>
+            </dl>
+            <div class="socials">
+                <a href="#" aria-label="Telegram">TG</a>
+                <a href="#" aria-label="WhatsApp">WA</a>
+                <a href="#" aria-label="ВКонтакте">VK</a>
+            </div>
+        </div>
+        <div class="contacts__map">
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=37.59%2C55.745%2C37.65%2C55.765&amp;layer=mapnik" title="Карта" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <a href="#top" class="logo">Beauty<span>Style</span></a>
+        <p>© 2026 Beauty Style. Демо-сайт. Фото: Unsplash.</p>
+    </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Закрыть">×</button>
+    <img src="" alt="">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
